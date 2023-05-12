@@ -190,7 +190,7 @@ exports.ox_target:addBoxZone({
 	options = {
 		{
 			name = 'casepopolari',
-			icon = 'fa-solid fa-home',
+			icon = 'fa-solid fa-sack-dollar',
 			label = WQL.Traduzione["frigobar"],
 			onSelect = function(data)
                 if lib.progressBar({
@@ -229,7 +229,7 @@ exports.ox_target:addBoxZone({
 	options = {
 		{
 			name = 'casepopolari',
-			icon = 'fa-solid fa-home',
+			icon = 'fa-solid fa-sack-dollar',
 			label = WQL.Traduzione["deposito1"],
 			onSelect = function(data)
                 if lib.progressBar({
@@ -268,7 +268,7 @@ exports.ox_target:addBoxZone({
 	options = {
 		{
 			name = 'casepopolari',
-			icon = 'fa-solid fa-home',
+			icon = 'fa-solid fa-sack-dollar',
 			label = WQL.Traduzione["deposito2"],
 			onSelect = function(data)
                 if lib.progressBar({
