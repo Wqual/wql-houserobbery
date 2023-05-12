@@ -18,7 +18,15 @@ Dependencies:
 
 > ox_inventory/data/items.lua
 ```lua
-["collanaperle"] = {
+	["grimaldello"] = {
+		label = "Grimaldello",
+		weight = 35,
+		stack = true,
+		close = true,
+		description = 'Questo attrezzo può facilitarti la vita...',
+	},
+
+        ["collanaperle"] = {
 		label = "Collana di perle",
 		weight = 5,
 		stack = true,
