@@ -1,5 +1,15 @@
 ESX = exports.es_extended:getSharedObject()
 
+-- BLIP START -- 
+Wqualblip = AddBlipForCoord(-40.7615, -1674.7125, 29.4712)
+
+SetBlipSprite(Wqualblip, 186)
+SetBlipScale(Wqualblip, 1.0)
+SetBlipColour(Wqualblip, 9)
+BeginTextCommandSetBlipName("STRING")
+AddTextComponentString("Miky")
+EndTextCommandSetBlipName(Wqualblip)
+
 Citizen.CreateThread(function()
     if not HasModelLoaded('a_m_y_soucent_02') then
        RequestModel('a_m_y_soucent_02')
@@ -359,15 +369,3 @@ local venditamaterialicasa = {
 exports.ox_target:addLocalEntity(npc,venditamaterialicasa)
 
 end)
-
-
--- BLIP START -- 
-Wqualblip = AddBlipForCoord(-40.7615, -1674.7125, 29.4712)
-
-    SetBlipSprite(Wqualblip, 186)
-    SetBlipScale(Wqualblip, 1.0)
-    SetBlipColour(Wqualblip, 9)
-    BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString("Miky")
-    EndTextCommandSetBlipName(Wqualblip)
-
