@@ -32,6 +32,11 @@ RegisterNetEvent("CercaDepositoCasa3", function ()
     exports.ox_inventory:AddItem(source, item[math.random(#item)], math.random(1, 2))
 end)
 
+RegisterNetEvent("toglitem", function ()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.removeInventoryItem('grimaldello')
+end)
+
 RegisterServerEvent('entraincasa')
 AddEventHandler('entraincasa', function()
 
