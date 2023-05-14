@@ -112,8 +112,14 @@ local casaPopolareEntrata = {
             label = WQL.Traduzione["entra"],
             onSelect = function(data)
                 -- Controlla se il giocatore ha il grimaldello per entrare nella casa da rapinare
-                if HasKey("grimaldello") then -- Item 
+                if HasKey("grimaldello") then -- Item
+
+                    Citizen.Wait(1000*2)
+
                     DoScreenFadeOut(800)
+
+                    Citizen.Wait(1000*3)
+
                     while not IsScreenFadedOut() do
                         Citizen.Wait(0)
                     end
@@ -155,7 +161,14 @@ local casaPopolareUscita = {
                     end
                     TriggerServerEvent('escidallacasa')
                     SetEntityCoords(PlayerPedId(), WQL.TeleportUscita)
+
+                    TriggerServerEvent('toglitem')
+
+                    Citizen.Wait(1000*2)
+
                     DoScreenFadeIn(800)
+
+                    Citizen.Wait(1000*3)
                     WqualVendita()
                 else
                     -- Mostra un messaggio di errore se il giocatore non ha la chiave
