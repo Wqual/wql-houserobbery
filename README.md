@@ -2,7 +2,7 @@
 
 **Frameworks:**
 
--ESX
+- ESX
 
 **Dependencies:**
 
