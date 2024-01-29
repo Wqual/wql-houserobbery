@@ -20,7 +20,7 @@
 ![6](https://github.com/Wqual/wql-houserobbery/assets/130603719/b0fe869d-3243-42c1-81e1-12e575492090)
 
 
-**Instalation:**
+**Installation:**
 
 > ox_inventory/data/items.lua
 ```lua
