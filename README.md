@@ -1,11 +1,16 @@
-# wql-houserobbery
-Author: Wqual#7949
+🏡 WQUAL HOUSE ROBBERY 🏡
 
-Dependencies:
+**Frameworks:**
+
+-ESX
+
+**Dependencies:**
+
 - ox_target
 - ox_inventory
 
-
+**Download:** https://github.com/Wqual/wql-houserobbery/tree/main
+**Pewview:** 
 ![1](https://github.com/Wqual/wql-houserobbery/assets/130603719/790b9b1b-0cfa-414f-b622-fe4ebf8bf721)
 ![2](https://github.com/Wqual/wql-houserobbery/assets/130603719/31f88650-7ccc-42d6-a902-83168faaccea)
 ![3](https://github.com/Wqual/wql-houserobbery/assets/130603719/99119b27-9b22-40ad-9ed0-afbe9a12fc4a)
